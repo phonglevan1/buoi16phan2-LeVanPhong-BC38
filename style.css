@@ -1,0 +1,41 @@
+body{
+    position: relative;
+    height: 100vh;
+}
+h1{
+    color: #fdcc56;
+}
+main{
+    text-align: left;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%); 
+}
+input{
+    color: #575d63;
+    border:1px solid #575d63;
+    height: 2rem;
+    width: 300px;
+    border-radius: 5px;
+    
+}
+.div-result{
+    width: 305px;
+    background-color: #d1ecf1;
+    border: #d1ecf1;
+    color: #80a9af;
+    border-radius: 5px;
+    height: 2rem;
+    position: relative;
+}
+.result{
+    position: absolute;
+    top:25%;
+}
+button{
+    background-color: #218838;
+    color: #fff;
+    border: 1px solid #218838;
+    padding: 1rem;
+    border-radius: 5px;
+}
